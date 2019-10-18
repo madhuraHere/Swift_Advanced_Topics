@@ -1,0 +1,6 @@
+framework module Pods_Datsme {
+  umbrella header "Pods-Datsme-umbrella.h"
+
+  export *
+  module * { export * }
+}

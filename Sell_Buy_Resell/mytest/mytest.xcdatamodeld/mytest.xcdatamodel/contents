@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="SellerDetails" representedClassName="SellerDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="contactofseller" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modelDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameofmodel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameofseller" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="years" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserDetails" representedClassName="UserDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="emailID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="UserDetails" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="SellerDetails" positionX="-54" positionY="18" width="128" height="120"/>
+    </elements>
+</model>
